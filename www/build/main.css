@@ -3811,6 +3811,14 @@ ion-icon {
   src: local("Noto Sans Bold"), local("Noto-Sans-Bold"), url("../assets/fonts/noto-sans-bold.ttf") format("truetype");
 }
 
+.popover-content {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
 ion-action-sheet {
   position: absolute;
   top: 0;
